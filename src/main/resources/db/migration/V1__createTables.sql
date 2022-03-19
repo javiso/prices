@@ -1,0 +1,16 @@
+CREATE TABLE BRAND (
+    id BIGINT PRIMARY KEY NOT NULL,
+    brand_name VARCHAR(50)
+);
+
+CREATE TABLE PRICES (
+    id BIGINT PRIMARY KEY NOT NULL,
+    start_date DATETIME NOT NULL,
+    end_date DATETIME NOT NULL,
+    product_id BIGINT NOT NULL,
+    priority INT NOT NULL,
+    price NUMERIC(20,2) NOT NULL,
+    currency VARCHAR(5) NOT NULL,
+    brand_id BIGINT NOT NULL,
+    FOREIGN KEY (brand_id) REFERENCES BRAND(ID)
+);
