@@ -3,7 +3,7 @@
 APIS:
 In this section, you will find instructions of how to send the request as well as the possible responses obtained. 
 Note: The data will be stored in H2 database. These are loaded during the run process of the app. 
-The server runs in localhost:8080.
+The server runs in localhost:8080. Also, you will find a postman collection example in the resource fold. 
 
 Database credentials:
   - jdbc url: jdbc:h2:mem:mydb
