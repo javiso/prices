@@ -20,8 +20,11 @@ PRICE'S ENPOINTS
 Description: It fetches the price according to application_date, product, brand and priority(if applicable).
 
 Example: Get v1/price
+
 application_date: 2020-06-14 16:00:00
+
 product_id: 35455
+
 brand_id: 1
 
 Result: 
