@@ -13,6 +13,7 @@ Database credentials:
 PRICE'S ENPOINTS
 
 - Get: v1/price
+- Inputs: Query params
 - Parameters: application_date: date to search price. (Format: yyyy-mm-dd hh:mm:ss)
 - product_id: product's id.
 - brand_id: brand's id. 
