@@ -25,10 +25,8 @@ brand_id: 1
 
 Result: 
 
-{   
     "startDate": "2020-06-14 15:00:00",
     "endDate": "2020-06-14 18:30:00",
     "productId": 35455,
     "price": 25.45
-    "brandId": 1
-}   
+    "brandId": 1  
